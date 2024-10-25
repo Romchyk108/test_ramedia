@@ -1,0 +1,87 @@
+name: ramedia_test
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.2
+  flutter_bloc: ^8.1.6
+  flutter_native_splash: ^2.4.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  assets:
+    - assets/images/volume.png
+    - assets/images/volume_off.png
+    - assets/images/button.png
+    - assets/images/backgroung0.png
+    - assets/images/backgroung1.png
+    - assets/images/background2.png
+    - assets/images/background3.png
+    - assets/images/background4.png
+    - assets/images/background5.png
+    - assets/images/background6.png
+    - assets/images/woman.png
+    - assets/images/Rectangle4.png
+    - assets/images/loading_image.png
+    - assets/images/chip_red.png
+    - assets/images/home_icon.png
+    - assets/images/2chips2.png
+    - assets/images/3chips2.png
+    - assets/images/5chips2.png
+    - assets/images/10chips2.png
+    - assets/images/text_background1.png
+    - assets/images/text_background2.png
+    - assets/images/questions_background.png
+    - assets/images/left_side_slot.png
+    - assets/images/right_side_slot.png
+    - assets/images/slot_background.png
+    - assets/images/spin_background.png
+    - assets/images/chips_background.png
+    - assets/images/slot1.png
+    - assets/images/slot2.png
+    - assets/images/slot3.png
+    - assets/images/slot4.png
+    - assets/images/slot5.png
+    - assets/images/slot6.png
+    - assets/images/slot7.png
+    - assets/images/slot8.png
+    - assets/images/slot0.png
+    - assets/images/minus.png
+    - assets/images/plus.png
+    - assets/images/star.png
+
+  fonts:
+    - family: Amarante
+      fonts:
+        - asset: assets/fonts/Amarante-Regular.ttf
+    - family: Alatsi
+      fonts:
+        - asset: assets/fonts/Alatsi/Alatsi-Regular.ttf
+
+
+  uses-material-design: true
+
+
+flutter_native_splash:
+  color: "#E3010F"
+#  image: assets/Icons/mainLogo.png
+#  android: true
+#  ios: false
+#  android_12:
+#    #    image: assets/Icons/transparentLogo.png
+#    #    color: "#E3010F"
+#    icon_background_color: "#E3010F"
+#    background_image: assets/Icons/mainLogo.png
+#    image_dark: assets/Icons/mainLogo.png
+#    icon_background_color_dark: "#E3010F"
